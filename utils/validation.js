@@ -13,6 +13,6 @@ export const validatePassword = (password) => {
     return re.test(password);
 }
 
-export const validateConfirmPassword = (password, confirmPassword) => {
-    return password === confirmPassword;
-}
+// export const validateConfirmPassword = (password, confirmPassword) => {
+//     return password === confirmPassword;
+// }
